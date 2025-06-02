@@ -53,7 +53,7 @@ to quickly create a Cobra application.`,
 			switch payload {
 			case "hello":
 				return m.Send(fmt.Sprintf("Hello I'm Tbot %s!", appVersion))
-			}			
+			}
 
 			return err
 
